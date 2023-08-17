@@ -1,0 +1,8 @@
+name: Blog
+description: It is use Blog content type.
+package: CustomModule
+type: module
+dependencies:
+  - drupal:views
+  - drupal:user
+core_version_requirement: ^10
