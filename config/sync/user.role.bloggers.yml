@@ -1,0 +1,18 @@
+uuid: acadfd80-e17b-400e-acb1-6a3b5a105263
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - node
+    - rest
+    - toolbar
+id: bloggers
+label: Bloggers
+weight: 4
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'administer rest resources'
+  - 'create blog content'
