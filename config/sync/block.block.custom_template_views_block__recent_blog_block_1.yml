@@ -1,0 +1,25 @@
+uuid: a2a4a551-3c85-4e89-9d59-3c1304e67d5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.recent_blog
+  module:
+    - views
+  theme:
+    - custom_template
+id: custom_template_views_block__recent_blog_block_1
+theme: custom_template
+region: social
+weight: 0
+provider: null
+plugin: 'views_block:recent_blog-block_1'
+settings:
+  id: 'views_block:recent_blog-block_1'
+  label: ''
+  label_display: visible
+  provider: views
+  context_mapping: {  }
+  views_label: ''
+  items_per_page: none
+visibility: {  }

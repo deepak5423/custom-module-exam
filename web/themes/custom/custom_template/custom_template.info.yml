@@ -2,6 +2,8 @@ name: Custom body Theme
 description: Custom Theme from body
 type: theme
 core_version_requirement: ^10
+libraries:
+  - custom_template/global-styling
 base theme: olivero
 package: Custom
 regions:

@@ -6,3 +6,5 @@ dependencies:
   - drupal:views
   - drupal:user
 core_version_requirement: ^10
+libraries:
+  - blog/my-library

@@ -24,6 +24,7 @@
         "drupal/devel": "^5.0",
         "drupal/email_login_otp": "^1.1",
         "drupal/login_emailusername": "^2.1",
+        "drupal/mix": "^1.6",
         "drupal/otp_verification": "^2.1",
         "drupal/password_policy": "^4.0",
         "drupal/pathauto": "^1.11",

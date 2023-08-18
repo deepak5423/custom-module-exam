@@ -102,22 +102,26 @@
     {% endif %}
   </header>
   <div{{ content_attributes.addClass('node__content', layout) }}>
+    <div class='like'>{{ content.increment_button }} {{ content.field_like_count}}</div>
     {{ content.title }}
-    {{ content.field_short_description }}
+    <div class="bodyfield">{{ content.field_short_description }}
     <div id="read-more-content">
       {{ short_text }}
       <div id="full-content" style="display: none;">{{ full_text }}</div>
       <button id="read-more-btn">Read More</button>
       <button id="show-less-btn" style="display: none;">Show Less</button>
     </div>
-    {{ content.field_tag}}
-    <span{{ author_attributes }}>
+    </div>
+    <div id='tag'>{{ content.field_tag}}</div>
+    <div{{ author_attributes }} class='created-date'>
       {{ date }}
-    </span>
+    </div>
+  </div>
+  <div class='author-name'>
+    {{ author_name }}
   </div>
   {% if content.comment %}
     <div id="comments" class="{{ layout }}">
-      {{ content.comment }}
     </div>
   {% endif %}
 </article>

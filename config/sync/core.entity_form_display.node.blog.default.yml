@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.blog.body
+    - field.field.node.blog.field_like_count
     - field.field.node.blog.field_tag
     - node.type.blog
   module:
@@ -29,6 +30,13 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_like_count:
+    type: number
+    weight: 123
+    region: content
+    settings:
+      placeholder: ''
     third_party_settings: {  }
   field_tag:
     type: entity_reference_autocomplete

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cc6d38cc0736b47b33e3d38977e76f8a",
+    "content-hash": "6168a1c4f5c9d0cca15c3854f2e6488d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2235,6 +2235,50 @@
             "support": {
                 "source": "https://git.drupalcode.org/project/login_emailusername",
                 "issues": "https://drupal.org/project/issues/login_emailusername"
+            }
+        },
+        {
+            "name": "drupal/mix",
+            "version": "1.6.7",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/mix.git",
+                "reference": "1.6.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/mix-1.6.7.zip",
+                "reference": "1.6.7",
+                "shasum": "3b47136796a6644537306761826178f3c67b834e"
+            },
+            "require": {
+                "drupal/core": "^8.8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.6.7",
+                    "datestamp": "1691674800",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Lugir",
+                    "homepage": "https://www.drupal.org/user/842094"
+                }
+            ],
+            "description": "A collection of simple but useful features for site building, management, development and user experience improving.",
+            "homepage": "https://www.drupal.org/project/mix",
+            "support": {
+                "source": "https://git.drupalcode.org/project/mix"
             }
         },
         {
