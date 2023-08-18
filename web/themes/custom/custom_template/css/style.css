@@ -1,0 +1,24 @@
+.like {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.bodyfield{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#read-more-content {
+    float: right;
+    width: 60%;
+}
+#tag{
+    display: flex;
+    justify-content: flex-end;
+}
+.created-date{
+    float: right;
+}
+.author-name{
+    float: right;
+}

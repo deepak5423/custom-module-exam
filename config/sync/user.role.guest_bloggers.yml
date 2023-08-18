@@ -1,0 +1,18 @@
+uuid: 54e94db4-c4b8-43aa-b382-0d51ba878960
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.blog
+  module:
+    - node
+    - rest
+    - toolbar
+id: guest_bloggers
+label: 'Guest Bloggers'
+weight: 5
+is_admin: null
+permissions:
+  - 'access toolbar'
+  - 'administer rest resources'
+  - 'create blog content'

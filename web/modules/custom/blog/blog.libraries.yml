@@ -1,0 +1,5 @@
+my-library:
+  version: 1.0
+  js:
+    js/increment-field.js: {}
+    

@@ -1,0 +1,8 @@
+uuid: a5532114-3640-462c-9ba3-1e6db061568f
+langcode: en
+status: true
+dependencies: {  }
+id: become-an-author
+label: 'Become an Author'
+description: 'Become an Author'
+locked: false

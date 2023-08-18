@@ -1,0 +1,22 @@
+name: Custom body Theme
+description: Custom Theme from body
+type: theme
+core_version_requirement: ^10
+libraries:
+  - custom_template/global-styling
+base theme: olivero
+package: Custom
+regions:
+  header: Header
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  hero: Hero (full width)
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  social: Social Bar
+  content_above: Content Above
+  content: Content
+  sidebar: Sidebar
+  content_below: Content Below
+  footer_top: Footer Top
+  footer_bottom: Footer Bottom

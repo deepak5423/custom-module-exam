@@ -1,0 +1,25 @@
+uuid: c56bf661-c0fd-40b3-a3bd-d64526cd92fb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.become-an-author
+  module:
+    - system
+  theme:
+    - custom_template
+id: custom_template_becomeanauthor_2
+theme: custom_template
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:become-an-author'
+settings:
+  id: 'system_menu_block:become-an-author'
+  label: 'Become an Author'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
